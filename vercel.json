@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "AZURE_WEBAPP_NAME": "rfi-trackapp"
+  },
+  "build": {
+    "env": {
+      "AZURE_WEBAPP_NAME": "rfi-trackapp"
+    }
+  }
+}
